@@ -32,7 +32,7 @@ streamlit run main.py
 
 ````console
 # Docker image'ını lokalde build edin
-docker build -t <image_name>
+docker build -t <image_name> .
 # Docker container'ı ayağa kaldırın
 docker container run -p 8501:8501 <image_name>
 ````
